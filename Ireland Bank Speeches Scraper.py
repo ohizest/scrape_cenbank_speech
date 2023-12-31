@@ -188,10 +188,10 @@ while True:
     # Extract and store the data in dictionaries
     for speaker_name, speech_date, speech_title, speech_url in zip(speaker_names, speech_dates, speech_titles, speech_urls):
         output = {
-            "speaker_name": speaker_name.get_attribute("title"),
-            "speech_date": speech_date.get_attribute("innerHTML"),
-            "speech_title": speech_title.get_attribute("innerHTML"),
-            "speech_url": speech_url.get_attribute("href")
+            "Speaker_Name": speaker_name.get_attribute("title"),
+            "Speech_Date": speech_date.get_attribute("innerHTML"),
+            "Speech_Title": speech_title.get_attribute("innerHTML"),
+            "Speech_URL": speech_url.get_attribute("href")
         }
         output_columns.append(output)
         time.sleep(1)
@@ -211,11 +211,11 @@ while True:
         break
 
 # Define the CSV file name
-csv_file = "Ireland_Bank_speech1.csv"
+csv_file = "Ireland_Bank_speech.csv"
 
 # Write the data to the CSV file
 with open(csv_file, mode='w', newline='', encoding='utf-8') as file:
-    fieldnames = ["speaker_name", "speech_date", "speech_title", "speech_url"]
+    fieldnames = ["Speaker_Name", "Speech_Date", "Speech_Title", "Speech_URL"]
     writer = csv.DictWriter(file, fieldnames=fieldnames)
 
     # Write the header row
