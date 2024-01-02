@@ -12,6 +12,7 @@ This Python script utilizes the Selenium library to scrape information about spe
 | ------------------- |:---------------------:| -------------:| -----------:|
 | Derville Rowland      | 30 November 2023 | Private Assets: A changing European... | [link1](https://www.centralbank.ie/news/article/private-assets--a-changing-european-landscape---remarks-by-deputy-governor-derville-rowland-at-the-irish-funds--10th-annual-uk-symposium) |
 |Gerry Cross	      | 23 November 2023      | “Implementing DORA” - Remarks by... |  [link2](https://github.com/ohizest/scrape_cenbank_speech/blob/main/Ireland_Bank_speech.csv#:~:text=https%3A//www.centralbank.ie/news/article/speech%2Dsharon,7) |
+
 Open the Ireland_Bank_speech.csv to see scraped data from January 1, 2022 to January 1, 2024
 
 
